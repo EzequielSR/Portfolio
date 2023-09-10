@@ -23,9 +23,10 @@
 }
 body{
     background:var(--bg-url) no-repeat top center/cover;
-    font-family: 'PlayFair', 'Poppins';
+    height: 100vh;
 }
 body *{
+    font-family: 'PlayFair', 'Poppins';
     color: var(--text-color);
 }
 #container{
@@ -33,11 +34,9 @@ body *{
     max-width: 588px;
     margin: 56px auto 0px;
     padding: 0 24px;
-    border:1px solid red;
 }
 #tittle{
     display: flex;
-    border:1px solid red;
     margin: 20px auto;
     padding:0 10px;
     text-align: left;
@@ -48,8 +47,8 @@ body *{
 }
 #switch{
     position: relative;
-  width: 64px;
-  margin: 4px auto;
+    width: 64px;
+    margin: 4px auto;
 }
 #switch button{
     width: 32px;
@@ -83,7 +82,6 @@ body *{
 }
 #sub-tittle{
     display: inline-block;
-    border:1px solid red;
     margin: 5px auto;
     padding:0 10px ;
 
@@ -94,7 +92,6 @@ body *{
     transform: translateY(150%);
 }
 #about{
-    border: 1px solid red;
 
     position: inherit;
     transform: translateX(6%);
@@ -109,7 +106,6 @@ body *{
     justify-content: center;
 }
 #social-links{
-    border:1px solid red;
     display: flex;
     justify-content: center;
 
@@ -128,5 +124,30 @@ body *{
 #social-links a:hover{
     background-color: var(--highlight-color);
 }
+@media (min-width:700px){
+    :root{
+        --bg-url:url(assets/bg-desktop.jpg);
+    }
+
+    .light{
+        --bg-url:url(assets/bg-desktop-light.jpg);
+    }
+}
+@keyframes slide-in{
+    from{
+        left:0;
+      }
+      to{
+        left:50%;
+      }
+     }
+ @keyframes slide-back{       
+     from{
+      left: 50%;
+      }
+        to{
+          left: 0;
+        }
+       }
 
 
