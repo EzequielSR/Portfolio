@@ -14,5 +14,33 @@ body{
     padding: 0 24px;
     border:1px solid red;
 }
+#tittle{
+    display: flex;
+    border:1px solid red;
+    margin: 20px auto;
+    padding:0 10px;
+    text-align: left;
+    justify-content:center;
+    
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'PlayFair','Poppins';
+}
+#texto{
+    display: flex;
+    border:1px solid red;
 
+    font-family:'Poppins', 'PlayFair';
+    text-align: center;
+    
+    position: absolute;
+    top: 11%;
+    transform: translateY(-17%);
+}
+#social-links{
+    border:1px solid red;
+    display: flex;
+    justify-content: center;
+
+}
 
