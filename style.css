@@ -31,24 +31,14 @@ body *{
 }
 #container{
     width: 100%;
-    max-width: 588px;
+    max-width: 554px;
     margin: 56px auto 0px;
     padding: 0 24px;
-}
-#tittle{
-    display: flex;
-    margin: 20px auto;
-    padding:0 10px;
-    text-align: left;
-    justify-content:center;
-    
-    font-size: 40px;
-    font-weight: bold;
 }
 #switch{
     position: relative;
     width: 64px;
-    margin: 4px auto;
+    margin: 64px auto;
 }
 #switch button{
     width: 32px;
@@ -56,7 +46,7 @@ body *{
     background: white var(--switch-bg-url) center no-repeat;
     border: 0;
     border-radius: 50%;
-
+    
     position: absolute;
     top: 50%;
     left: 0;
@@ -80,30 +70,29 @@ body *{
     -webkit-backdrop-filter: blur(4px);
     border-radius: 9999px;
 }
-#sub-tittle{
-    display: inline-block;
-    margin: 5px auto;
-    padding:0 10px ;
-
-    text-align: center;
-    
-    position:relative;
-    transform: translateX(10%);
-    transform: translateY(150%);
+#conteudo{
+    margin: auto;
+    max-width: 500px;
 }
-#about{
+#conteudo > h3{
+    display: block;
+    text-align: left;
+    padding: 9px 7px;
+    font-size: 20px;
+    
+}
+#conteudo > h1{
+    display: block;
+    text-align: left;
+    font-size: 5em;
+}
+#conteudo > p{
+    text-align: center;
+    margin:10px;
+    padding: 5px;
+    max-width: 340px;
+    font-size: 17px;
 
-    position: inherit;
-    transform: translateX(6%);
-
-    width: 70%;
-    height: 70%;
-
-    margin:10px auto ;
-    padding: 20px 0;
-
-    text-align: right;
-    justify-content: center;
 }
 #social-links{
     display: flex;
@@ -117,7 +106,7 @@ body *{
     align-items: center;
     justify-content: center;
     padding: 16px;
-
+    
     transition: background 0.2s;
     border-radius: 50%;
 }
@@ -128,7 +117,7 @@ body *{
     :root{
         --bg-url:url(assets/bg-desktop.jpg);
     }
-
+    
     .light{
         --bg-url:url(assets/bg-desktop-light.jpg);
     }
@@ -136,18 +125,16 @@ body *{
 @keyframes slide-in{
     from{
         left:0;
-      }
-      to{
+    }
+    to{
         left:50%;
-      }
-     }
- @keyframes slide-back{       
-     from{
-      left: 50%;
-      }
-        to{
+    }
+}
+@keyframes slide-back{       
+    from{
+        left: 50%;
+    }
+    to{
           left: 0;
         }
-       }
-
-
+    }
