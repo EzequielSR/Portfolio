@@ -25,7 +25,7 @@
 }
 body{
     background:var(--bg-url) no-repeat top center/cover;
-    height: 100vh;
+    min-height: 100vh;
 }
 body *{
     font-family: 'Source Code Pro', 'Poppins';
