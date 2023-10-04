@@ -28,7 +28,7 @@ body{
     min-height: 100vh;
 }
 body *{
-    font-family: 'Source Code Pro', 'Poppins';
+    font-family: 'Source Code Pro',monospace, 'Poppins';
     color: var(--text-color);
 }
 #container{
@@ -74,29 +74,28 @@ body *{
 }
 #conteudo{
     margin: auto;
-    max-width: 500px;
+    max-width: 400px;
 }
 #conteudo > h3{
     display: block;
     text-align: left;
     padding: 9px 7px;
     font-size: 20px;
-    font-weight: normal;
-    font-family: 'Source Code Pro', monospace;
+    font-weight: bold;
 }
 #conteudo > h1{
     display: block;
     text-align: left;
     font-size: 5em;
     font-family: 'Poppins', Arial;
-    font-weight: bolder;
 }
 #conteudo > p{
-    text-align: center;
+    text-align: right;
     margin:10px;
     padding: 5px;
     max-width: 450px;
     font-size: 17px;
+    font-weight: normal;
 }
 #social-links{
     display: flex;
