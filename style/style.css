@@ -74,7 +74,7 @@ body *{
 }
 #conteudo{
     margin: auto;
-    max-width: 400px;
+    max-width: 500px;
 }
 #conteudo > h3{
     display: block;
@@ -85,9 +85,10 @@ body *{
 }
 #conteudo > h1{
     display: block;
-    text-align: left;
-    font-size: 5em;
+    text-align: center;
+    font-size: 7em;
     font-family: 'Poppins', Arial;
+    
 }
 #conteudo > p{
     text-align: right;
