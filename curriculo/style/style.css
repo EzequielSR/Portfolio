@@ -1,0 +1,130 @@
+
+        * {
+            margin: 0;
+            bottom: 0;
+        }
+
+        :root {
+            --corpadrao: black;
+            --corsubtitulo: #0069F6;
+            --tamanhopadrao:1.2em;
+            --cordefundo: rgb(255, 253, 253);
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: var(--cordefundo);
+        }
+
+        header {
+            text-align: center;
+            padding-top: 20px;
+        }
+
+        header>h1 {
+            color: var(--corpadrao);
+            font-weight: bold;
+            margin-top: 30px;
+            margin-bottom: 20px;
+        }
+
+        span {
+            display: block;
+            width: 400px;
+            height: 2px;
+            margin: auto;
+            border-radius: 9999px;
+            background-color: black;
+        }
+
+        header>p {
+            font-size: 1.2em;
+            text-align: justify;
+            max-width: 600px;
+            padding-left: 10px;
+            margin: auto;
+            margin-bottom: 30px;
+            margin-top: 20px;
+        }
+        
+        main>div>h2 {
+            color: var(--corsubtitulo);
+        }
+
+        .experiencia {
+            border: 1px solid black;
+            border-radius: 10px;
+            text-align: left;
+            max-width: 600px;
+            margin-left: 20px;
+            margin-right: 20px;
+
+        }
+         .experiencia h2{
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+         .experiencia p, ul{
+            font-size: var(--tamanhopadrao);
+            margin: 20px 0 auto;
+        }
+         .experiencia ul{
+            margin-top: 10px;
+        }
+
+        .contato{
+            margin: 20px 20px;
+            border: 1px solid black;
+            border-radius: 10px;
+            max-width: 600px;
+        }
+        .contato h2{
+            margin:10px 0px;
+        }
+        .contato p{
+            padding: 5px;
+        }
+        .tecnologias{
+            margin: 20px 20px;
+            border: 1px solid black;
+            border-radius: 10px;
+            max-width: 600px;
+        }
+        .tecnologias h2{
+            margin:10px 0px;
+        }
+        .tecnologias p{
+            padding: 5px;
+        }
+        .educacao{
+            margin: 20px 20px;
+            border: 1px solid black;
+            border-radius: 10px;
+            max-width: 600px;
+        }
+        .educacao h2{
+            margin:10px 0px;
+        }
+        .educacao p{
+            padding: 5px;
+        }
+    footer{
+
+            background-color: var(--corsubtitulo);
+            color: white;
+            text-align: center;
+            font-size: 0.8em;
+            padding: 5px;
+            }
+          
+          footer a {
+            color: white;
+            font-weight: bolder;
+            text-decoration: none;
+          }
+          footer a:hover {
+            text-decoration: underline;
+            color: var(--corpadrao);
+          }
+          
+    
