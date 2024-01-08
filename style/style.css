@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    border-radius: border-box;
+    box-sizing: border-box;
 }
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
@@ -24,7 +24,7 @@
     --switch-bg-url: url(../assets/sun.svg);
 }
 body{
-    background:var(--bg-url) no-repeat top center/cover;
+    background: rgb(37, 36, 36) var(--bg-url) no-repeat top center /cover;
     min-height: 100vh;
 }
 body *{
@@ -33,7 +33,7 @@ body *{
 }
 #container{
     width: 100%;
-    max-width: 554px;
+    max-width: 540px;
     margin: 56px auto 0px;
     padding: 0 24px;
 }
@@ -74,11 +74,11 @@ body *{
 }
 #conteudo{
     margin: auto;
-    max-width: 500px;
+    max-width: 600px;
 }
 #conteudo > h3{
     display: block;
-    text-align: left;
+    text-align: auto;
     padding: 9px 7px;
     font-size: 20px;
     font-weight: bold;
@@ -86,7 +86,7 @@ body *{
 #conteudo > h1{
     display: block;
     text-align: center;
-    font-size: 6em;
+    font-size: 5em;
     font-family: 'Poppins', Arial;
     line-height: 0.9em;
 }
@@ -94,8 +94,8 @@ body *{
     text-align: right;
     margin:10px;
     margin-top: 50px;
-    padding: 5px;
-    max-width: 450px;
+    padding: 2px;
+    max-width: 400px;
     font-size: 20px;
     font-weight: normal;
 }
