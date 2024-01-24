@@ -86,9 +86,14 @@ body *{
 #conteudo > h1{
     display: block;
     text-align: center;
-    font-size: 5em;
+    font-size: 6em;
     font-family: 'Poppins', Arial;
     line-height: 0.9em;
+}
+@media screen and (max-width: 650px) {
+    #conteudo > h1 {
+        font-size: 5em; 
+    }
 }
 #conteudo > p{
     text-align: right;
