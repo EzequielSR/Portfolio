@@ -89,6 +89,9 @@ body *{
     font-size: 6em;
     font-family: 'Poppins', Arial;
     line-height: 0.9em;
+    background:linear-gradient(to right, #30CFD0 0%, #330867 100%) ;
+    background-clip: text;
+    color: transparent;
 }
 @media screen and (max-width: 650px) {
     #conteudo > h1 {
