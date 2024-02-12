@@ -17,7 +17,7 @@ Bem-vindo ao meu portfólio, onde a paixão pelo design encontra a excelência n
 <br>
 
 <p align="center">
-  <img alt="Projeto DevLinks" src=".github/github.preview.jpg" width="100%">
+  <img alt="Projeto DevLinks" src="github/github.preview.jpg" width="100%">
 </p>
 
 ## 🚀 Tecnologias
