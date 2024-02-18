@@ -97,11 +97,6 @@ body *{
     background-clip: text;
     color: transparent;
 }
-@media screen and (max-width: 650px) {
-    #conteudo > h1 {
-        font-size: 5em; 
-    }
-}
 #conteudo > p{
     text-align: right;
     margin:10px;
@@ -110,6 +105,17 @@ body *{
     max-width: 400px;
     font-size: 20px;
     font-weight: normal;
+}
+@media screen and (max-width: 650px) {
+    #conteudo > h1 {
+        font-size: 5em; 
+    }
+    #conteudo > h3{
+        font-size: 16px;
+    }
+    #conteudo > p{
+        font-size: 16px;
+    }
 }
 #social-links{
     display: flex;
