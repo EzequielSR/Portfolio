@@ -44,7 +44,7 @@ body *{
 #switch{
     position: relative;
     width: 64px;
-    margin: 64px auto;
+    margin: 65px auto;
 }
 #switch button{
     width: 32px;
@@ -96,11 +96,7 @@ body *{
     background-clip: text;
     color: transparent;
 }
-@media screen and (max-width: 600px) {
-    #conteudo > h1 {
-        font-size: 5em; 
-    }
-}
+
 #conteudo > p{
     text-align: right;
     margin:10px;
@@ -142,15 +138,7 @@ body *{
     transform: translate(-2px, -2px);
     transition:transform 0.3s;
 }
-@media (min-width:768px){
-    :root{
-        --bg-url:url(../assets/bg-desktop.jpg);
-    }
-    
-    .light{
-        --bg-url:url(../assets/bg-desktop-light.jpg);
-    }
-}
+
 @keyframes slide-in{
     from{
         left:0;
