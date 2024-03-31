@@ -88,8 +88,9 @@ body * {
 }
 #conteudo > h1 {
   display: block;
-  text-align: center;
-  font-size: 6em;
+  margin: auto;
+  font-size: 5em;
+  margin-bottom: 40px;
   font-family: "Poppins", Arial;
   line-height: 0.9em;
   background: linear-gradient(
@@ -103,12 +104,9 @@ body * {
 
 #conteudo > p {
   text-align: right;
-  margin: 10px;
-  margin-top: 50px;
-  padding: 2px;
-  max-width: 400px;
+  margin: 10px 0;
   font-size: 20px;
-  font-weight: normal;
+  font-weight: lighter;
 }
 #social-links {
   display: flex;
