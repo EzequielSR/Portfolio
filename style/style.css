@@ -85,12 +85,8 @@ body * {
   padding: 9px 7px;
   font-size: 20px;
   font-weight: bold;
-#conteudo > h3{
-    display: block;
-    padding: 9px 7px;
-    font-size: 20px;
-    font-weight: bold;
 }
+
 #conteudo > h1 {
   display: block;
   margin: auto;
@@ -105,16 +101,8 @@ body * {
   );
   background-clip: text;
   color: transparent;
-#conteudo > h1{
-    display: block;
-    margin: auto;
-    font-size: 6em;
-    font-family: 'Poppins', Arial;
-    line-height: 0.9em;
-    background:linear-gradient(to right, var(--color-text-h1-black) 30%, var(--color-text-h1-light) 50%) ;
-    background-clip: text;
-    color: transparent;
 }
+
 
 #conteudo > p {
   text-align: right;
@@ -125,6 +113,7 @@ body * {
 #social-links {
   display: flex;
   justify-content: center;
+}
 @media screen and (max-width: 650px) {
     #conteudo > h1 {
         font-size: 5em; 
