@@ -11,12 +11,21 @@
   }
   #conteudo > p {
     font-size: 14px;
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
     text-align: center;
   }
 }
 @media screen and (min-width: 600px) and (max-width: 768px) {
   #conteudo > h1 {
     font-size: 5em;
+  }
+  #conteudo > p{
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
   }
 }
 @media (max-width: 768px) {
