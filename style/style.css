@@ -3,8 +3,10 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 @import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
 :root {
   --text-color: white;
   --bg-url: url(../assets/bg-mobile.jpg);
@@ -16,6 +18,7 @@
   --color-text-h1-black: #212125;
   --color-text-h1-light: #ba7fdb;
 }
+
 .light {
   --text-color: black;
   --bg-url: url(../assets/bg-mobile-light.jpg);
@@ -26,25 +29,30 @@
   --color-text-h1-black: #272a3058;
   --color-text-h1-light: #5d2a6da9;
 }
+
 body {
   background: rgb(37, 36, 36) var(--bg-url) no-repeat top center / cover;
   min-height: 100vh;
 }
+
 body * {
   font-family: "Source Code Pro", monospace, "Poppins";
   color: var(--text-color);
 }
+
 #container {
   width: 100%;
   max-width: 540px;
   margin: 56px auto 0px;
   padding: 0 24px;
 }
+
 #switch {
   position: relative;
   width: 64px;
   margin: 65px auto;
 }
+
 #switch button {
   width: 32px;
   height: 32px;
@@ -59,12 +67,15 @@ body * {
   transform: translateY(-50%);
   animation: slide-back 0.2s;
 }
+
 .light #switch button {
   animation: slide-in 0.2s forwards;
 }
+
 #switch button:hover {
   outline: 8px solid var(--highlight-color);
 }
+
 #switch span {
   display: block;
   width: 64px;
@@ -75,11 +86,13 @@ body * {
   -webkit-backdrop-filter: blur(4px);
   border-radius: 9999px;
 }
+
 #conteudo {
   margin: auto;
   max-width: 600px;
 }
-#conteudo > h3 {
+
+#conteudo>h3 {
   display: block;
   text-align: auto;
   padding: 9px 7px;
@@ -87,43 +100,46 @@ body * {
   font-weight: bold;
 }
 
-#conteudo > h1 {
+#conteudo>h1 {
   display: block;
   margin: auto;
   font-size: 5em;
   margin-bottom: 40px;
   font-family: "Poppins", Arial;
   line-height: 0.9em;
-  background: linear-gradient(
-    to right,
-    var(--color-text-h1-black) 30%,
-    var(--color-text-h1-light) 50%
-  );
+  background: linear-gradient(to right,
+      var(--color-text-h1-black) 30%,
+      var(--color-text-h1-light) 50%);
   background-clip: text;
   color: transparent;
 }
 
-#conteudo > p {
+#conteudo>p {
   text-align: right;
   margin: 10px 0;
   font-size: 20px;
   font-weight: lighter;
 }
+
 #social-links {
   display: flex;
   justify-content: center;
 }
+
 @media screen and (max-width: 650px) {
-  #conteudo > h1 {
+  #conteudo>h1 {
     font-size: 5em;
   }
-  #conteudo > h3 {
+
+  #conteudo>h3 {
     font-size: 16px;
   }
-  #conteudo > p {
+
+  #conteudo>p {
     font-size: 16px;
   }
 }
+
 #social-links {
   display: flex;
   justify-content: center;
@@ -131,6 +147,7 @@ body * {
   padding: 24px 0;
   font-size: 24px;
 }
+
 #social-links a {
   display: flex;
   align-items: center;
@@ -140,6 +157,7 @@ body * {
   transition: background 0.4s;
   border-radius: 40%;
 }
+
 #social-links a:hover {
   background-color: var(--highlight-color);
   transform: translate(-2px, -2px);
@@ -150,14 +168,17 @@ body * {
   from {
     left: 0;
   }
+
   to {
     left: 50%;
   }
 }
+
 @keyframes slide-back {
   from {
     left: 50%;
   }
+
   to {
     left: 0;
   }
