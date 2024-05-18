@@ -103,7 +103,6 @@ body * {
   color: transparent;
 }
 
-
 #conteudo > p {
   text-align: right;
   margin: 10px 0;
@@ -115,19 +114,19 @@ body * {
   justify-content: center;
 }
 @media screen and (max-width: 650px) {
-    #conteudo > h1 {
-        font-size: 5em; 
-    }
-    #conteudo > h3{
-        font-size: 16px;
-    }
-    #conteudo > p{
-        font-size: 16px;
-    }
+  #conteudo > h1 {
+    font-size: 5em;
+  }
+  #conteudo > h3 {
+    font-size: 16px;
+  }
+  #conteudo > p {
+    font-size: 16px;
+  }
 }
-#social-links{
-    display: flex;
-    justify-content: center;
+#social-links {
+  display: flex;
+  justify-content: center;
 
   padding: 24px 0;
   font-size: 24px;
