@@ -1,24 +1,28 @@
 @charset "UTF-8";
 
 @media screen and (max-width: 600px) {
-  #conteudo > h3 {
+  #conteudo>h3 {
     text-align: center;
     font-size: 15px;
   }
-  #conteudo > h1 {
+
+  #conteudo>h1 {
     font-size: 3.7em;
     text-align: center;
   }
-  #conteudo > p {
+
+  #conteudo>p {
     font-size: 14px;
     text-align: center;
   }
 }
+
 @media screen and (min-width: 600px) and (max-width: 768px) {
-  #conteudo > h1 {
+  #conteudo>h1 {
     font-size: 5em;
   }
 }
+
 @media (max-width: 768px) {
   :root {
     --bg-url: url(../assets/bg-desktop.jpg);
@@ -28,18 +32,22 @@
     --bg-url: url(../assets/bg-desktop-light.jpg);
   }
 }
+
 @media (min-width: 768px) and (max-width: 992px) {
-  #conteudo > h1 {
+  #conteudo>h1 {
     font-size: 6em;
   }
+
   #social-links {
     font-size: 35px;
   }
 }
+
 @media (min-width: 992px) {
-  #conteudo > h1 {
+  #conteudo>h1 {
     font-size: 6em;
   }
+
   #social-links {
     font-size: 40px;
   }
