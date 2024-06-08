@@ -1,4 +1,4 @@
-﻿<h1 align="center"> Portfolio </h1>
+﻿<h1 align="center"> Portfólio </h1>
 
 <p align="center">
 Bem-vindo ao meu portfólio, onde a paixão pelo design encontra a excelência no desenvolvimento front-end.
