@@ -200,6 +200,7 @@ body {
 
   padding: 24px 0;
   font-size: 24px;
+  gap: 5px;
 }
 
 #social-links a {
