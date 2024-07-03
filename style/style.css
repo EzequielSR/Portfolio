@@ -1,12 +1,14 @@
-@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url(https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Poppins&display=swap);
 
+/* Reset padrão para todos os elementos */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+/* Variáveis de cores e URLs */
 :root {
   --text-color: white;
   --stroke-color: rgba(255, 255, 255, 0.5);
@@ -17,19 +19,21 @@
   --color-bg-1: #0A192F;
   --color-bg-2: #2F3B4E;
   --color-h1: #cdcdcd;
-
 }
 
+/* Estilo para todos os elementos dentro do body */
 body * {
   font-family: "Source Code Pro", monospace, "Poppins";
   color: var(--text-color);
 }
 
+/* Estilo para o body */
 body {
   min-height: 100vh;
   overflow: hidden;
 }
 
+/* Área fixa no fundo */
 .area {
   position: fixed;
   top: 0;
@@ -40,10 +44,9 @@ body {
   width: 100%;
   height: 100%;
   pointer-events: none;
-
-
 }
 
+/* Estilo para as bolhas de fundo */
 .circles {
   position: absolute;
   top: 0;
@@ -62,7 +65,6 @@ body {
   background: var(--color-bg-2);
   animation: animate 25s linear infinite;
   bottom: -15vh;
-
 }
 
 .circles li:nth-child(1) {
@@ -71,7 +73,6 @@ body {
   height: 80px;
   animation-delay: 0s;
 }
-
 
 .circles li:nth-child(2) {
   left: 10%;
@@ -141,64 +142,62 @@ body {
   animation-duration: 11s;
 }
 
-
-
-
-
-
+/* Container principal */
 #container {
   position: relative;
   z-index: 1;
   width: 100%;
   max-width: 595px;
-  margin: 56px auto 0px;
+  margin: 56px auto 0;
   padding: 0 24px;
 }
 
+/* Conteúdo principal */
 #conteudo {
   margin: auto;
   max-width: 600px;
 }
 
-#conteudo>h3 {
+/* Estilo para o h3 dentro do conteúdo */
+#conteudo > h3 {
   display: block;
   text-align: auto;
   padding: 9px 7px;
   font-size: 20px;
-  font-weight: bold;
+  font-weight: 700;
 }
 
-#conteudo>h1 {
+/* Estilo para o h1 dentro do conteúdo */
+#conteudo > h1 {
   display: inline-block;
   margin: auto;
   font-size: 5em;
   margin-bottom: 40px;
   font-family: "Poppins", Arial;
   color: var(--color-h1);
-  font-weight: bold;
-  line-height: 0.9em;
-
+  font-weight: 700;
+  line-height: .9em;
 }
 
+/* Estilo para o efeito de máquina de escrever */
 .typewriter::after {
   content: '|';
   display: inline-block;
   animation: blink-caret 0.75s infinite alternate;
 }
 
-
-
-#conteudo>p {
+/* Estilo para o parágrafo dentro do conteúdo */
+#conteudo > p {
   text-align: right;
   margin: 10px 0;
   font-size: 20px;
   font-weight: lighter;
 }
 
+/* Links sociais */
 #social-links {
   display: flex;
   justify-content: center;
-
   padding: 24px 0;
   font-size: 24px;
 }
@@ -208,7 +207,6 @@ body {
   align-items: center;
   justify-content: center;
   padding: 16px;
-
   transition: background 0.4s;
   border-radius: 40%;
 }
@@ -219,29 +217,24 @@ body {
   transition: transform 0.3s;
 }
 
+/* Animações */
 @keyframes animate {
-
   0% {
     transform: translateY(0) rotate(0deg);
     opacity: 1;
     border-radius: 0;
   }
-
   100% {
     transform: translateY(-1000px) rotate(720deg);
     opacity: 0;
     border-radius: 50%;
   }
-
 }
 
 @keyframes blink-caret {
-
-  from,
-  to {
+  from, to {
     opacity: 0;
   }
-
   50% {
     opacity: 1;
   }
@@ -251,7 +244,6 @@ body {
   from {
     width: 0;
   }
-
   to {
     width: 100%;
   }
@@ -261,8 +253,7 @@ body {
   from {
     border-right-color: var(--text-color);
   }
-
   to {
-    border-right-color: transparent;
+    border-right-color: #fff0;
   }
 }
